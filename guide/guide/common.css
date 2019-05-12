@@ -1,0 +1,189 @@
+html, body, h1, h2, h3, h4, h5, h6, hr, p, a,
+blockquote, dl, dt, dd, ul, ol, li, pre,
+form, fieldset, legend, button, input, textarea, th, td {
+  margin: 0;
+  padding: 0; }
+
+.clear {
+  clear: both; }
+
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden; }
+
+.clearfix {
+  zoom: 1; }
+
+html, body {
+  font: 14px  "PingFang SC", "Microsoft Yahei",  Arial, SimSun, "Helvetica Neue",  "Luxi Sans", "DejaVu Sans", Tahoma,  "Hiragino Sans GB", sans-serif;
+  color: #222;
+  background: white;
+  font-weight: normal; }
+
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0; }
+
+.noselect {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+                                    supported by Chrome and Opera */ }
+
+a {
+  outline: 0;
+  color: #222;
+  text-decoration: none; }
+  a:hover {
+    color: red;
+    text-decoration: underline; }
+  a:active {
+    color: #205DCA; }
+
+.all-website {
+  font: 14px "Hiragino Sans GB","Hiragino Sans GB W3",\5b8b\4f53,'Microsoft Yahei',Arial,SimSun,sans-serif;
+  color: #222;
+  font-weight: normal; }
+  .all-website .websites {
+    margin: 15px auto;
+    position: relative;
+    background: white; }
+    .all-website .websites .sub-title {
+      position: absolute;
+      height: 35px;
+      line-height: 35px;
+      padding: 0 15px;
+      font-size: 15px;
+      color: #33bd4f;
+      left: 0;
+      right: 0;
+      top: 0; }
+    .all-website .websites .site-grid {
+      padding: 15px 15px;
+      padding-top: 45px;
+      position: relative; }
+      .all-website .websites .site-grid > .sub-title a.back-top {
+        color: #34c151;
+        float: right;
+        font-size: 12px;
+        padding: 0 10px;
+        display: block;
+        vertical-align: middle; }
+    .all-website .websites .list li {
+      font-size: 13px;
+      letter-spacing: 1px;
+      overflow: hidden;
+      display: block;
+      height: 30px;
+      line-height: 30px;
+      float: left;
+      width: 110px;
+      position: relative; }
+      @media (max-width: 768px) {
+        .all-website .websites .list li {
+          width: 25%;
+          box-sizing: border-box; } }
+      @media (max-width: 414px) {
+        .all-website .websites .list li {
+          width: 33.333%; } }
+      .all-website .websites .list li span.icon {
+        background: #eaeaea; }
+  .all-website .footer {
+    margin: 20px 0;
+    min-height: 50px;
+    font-size: 13px;
+    text-align: center; }
+
+.nav {
+  padding: 10px 15px;
+  background: white;
+  border-bottom: 2px solid #34c151; }
+  .nav .logo {
+    background: transparent center no-repeat;
+    background-image: url(974cdf45a94253274396b51ebb5b05bf.png);
+    width: 155px;
+    height: 40px;
+    display: block;
+    float: left; }
+  .nav .right {
+    line-height: 40px;
+    float: right;
+    vertical-align: middle; }
+    .nav .right .btn {
+      border: 1px solid transparent;
+      padding: 0 10px;
+      line-height: 30px;
+      height: 30px;
+      border-radius: 2px;
+      text-decoration: none;
+      font-size: 12px;
+      display: inline-block; }
+      .nav .right .btn:hover {
+        opacity: .8; }
+    .nav .right .btn-secondary {
+      border-color: #34c151;
+      color: #34c151; }
+
+.container {
+  max-width: 800px;
+  margin: 0 auto; }
+
+.form {
+  margin: 10px auto; }
+  .form .error {
+    color: red;
+    margin-bottom: 15px; }
+  .form .success {
+    color: green;
+    margin-bottom: 15px; }
+  @media (max-width: 768px) {
+    .form {
+      width: auto !important;
+      margin: 10px 15px; } }
+  .form .form-input input, .form .form-btn .btn {
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    padding: 0 12px;
+    height: 40px;
+    line-height: 38px;
+    border-radius: 4px;
+    background: white;
+    font-size: 16px;
+    display: block;
+    outline: none; }
+  .form .form-input {
+    margin: 0 auto; }
+    .form .form-input input {
+      border-color: #dadada;
+      margin: 0 auto; }
+    .form .form-input + .form-input, .form .form-input + .form-btn {
+      margin-top: 10px; }
+  .form .form-btn {
+    margin: 0 auto; }
+    .form .form-btn .btn {
+      float: left;
+      text-align: center;
+      text-decoration: none; }
+      .form .form-btn .btn:hover {
+        color: #333;
+        opacity: .8; }
+      .form .form-btn .btn.btn-primary {
+        background: #34c151;
+        color: white; }
+      .form .form-btn .btn.btn-secondary {
+        border-color: #34c151;
+        color: #34c151; }
+
